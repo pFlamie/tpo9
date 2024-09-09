@@ -72,11 +72,6 @@ preguntas = {
     ]
 }
 
-#Archivos
-
-def guardar_resultados(nombre, puntuacion):
-    with open("resultados.txt", "a") as archivo:
-        archivo.write(f"{nombre}: {puntuacion} puntos\n")
 
 jugar_trivia()
 
